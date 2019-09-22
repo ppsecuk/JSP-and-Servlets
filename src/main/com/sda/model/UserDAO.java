@@ -10,7 +10,7 @@ public interface UserDAO {
     User getUser(String userName);
 
     // U -> update a user date
-    void updateUser(String password, String fullName);
+    void updateUser(String userName, String password, String fullName);
 
     // D -> Delete a user
     void deleteUser(String userName);
