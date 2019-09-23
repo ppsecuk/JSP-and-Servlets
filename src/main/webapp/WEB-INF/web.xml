@@ -6,11 +6,11 @@
     <display-name>Archetype Created Web Application</display-name>
     <servlet>
         <servlet-name>myDemoServlet</servlet-name>
-        <servlet-class>main.com.sda.DemoServlet</servlet-class>
+        <servlet-class>main.java.com.sda.DemoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>myLoginServlet</servlet-name>
-        <servlet-class>main.com.sda.LoginServlet</servlet-class>
+        <servlet-class>main.java.com.sda.LoginServlet</servlet-class>
     </servlet>
 
 

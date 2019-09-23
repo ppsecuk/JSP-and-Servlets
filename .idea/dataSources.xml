@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="6293554c-5cf1-42dd-9284-ab2538d24cb3">
+    <data-source source="LOCAL" name="servletDB@localhost" uuid="41c73c46-8d66-4f8f-b371-b596bf75cfab">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/servletDB</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
@@ -13,16 +13,16 @@
         <property name="characterEncoding" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
-        <property name="serverTimezone" value="EET" />
+        <property name="serverTimezone" value="Europe/Moscow" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="da046768-f078-43a4-90df-459462a15845">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="dbc8aa46-1dd8-4153-8bf3-e6c1f9feea11">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>Hibernate
 
-/Users/hatefpalizgar/Desktop/SDA/JSP-Servlets/&lt;:&gt;/introJSP/src/main/resources/hibernate.cfg.xml</remarks>
+/Users/hatefpalizgar/Desktop/SDA/JSP-Servlets/projectFiles/introJSP/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/servletDB</jdbc-url>
       <driver-properties>

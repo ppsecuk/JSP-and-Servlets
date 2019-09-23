@@ -1,4 +1,6 @@
-package main.com.sda.model;
+package main.java.com.sda.model;
+
+import main.java.com.sda.model.User;
 
 public interface UserDAO {
     // Here we want to design CRUD operations
