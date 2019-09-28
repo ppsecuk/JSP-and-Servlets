@@ -13,5 +13,6 @@
 <body>
 UserName: <%= request.getParameter("userInput")%>
 Password: <%= request.getParameter("passInput")%>
+
 </body>
 </html>
